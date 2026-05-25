@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "header": "AWS-Web-Node-Prod-01",
+    "type": "Web Application",
+    "status": "Online",
+    "target": "18%",
+    "limit": "42%",
+    "reviewer": "AWS / US-East-1"
+  },
+  {
+    "id": 2,
+    "header": "GCP-Postgres-Primary",
+    "type": "Database (Primary)",
+    "status": "Online",
+    "target": "48%",
+    "limit": "76%",
+    "reviewer": "GCP / Asia-East-2"
+  },
+  {
+    "id": 3,
+    "header": "DO-Redis-Cache-Cluster",
+    "type": "In-Memory Database",
+    "status": "Online",
+    "target": "22%",
+    "limit": "89%",
+    "reviewer": "DigitalOcean / SGP-1"
+  },
+  {
+    "id": 4,
+    "header": "Local-Vault-Backup-01",
+    "type": "Offline Storage",
+    "status": "Offline",
+    "target": "0%",
+    "limit": "0%",
+    "reviewer": "On-Premise / Bangkok"
+  },
+  {
+    "id": 5,
+    "header": "Vultr-K8s-Ingress-Gate",
+    "type": "API Gateway / Proxy",
+    "status": "Maintenance",
+    "target": "85%",
+    "limit": "64%",
+    "reviewer": "Vultr / EU-West-1"
+  },
+  {
+    "id": 6,
+    "header": "AWS-Django-API-Prod-02",
+    "type": "Web Application",
+    "status": "Online",
+    "target": "29%",
+    "limit": "54%",
+    "reviewer": "AWS / US-West-2"
+  },
+  {
+    "id": 7,
+    "header": "GCP-Postgres-Replica",
+    "type": "Database (Replica)",
+    "status": "Online",
+    "target": "10%",
+    "limit": "65%",
+    "reviewer": "GCP / Asia-East-2"
+  },
+  {
+    "id": 8,
+    "header": "DO-Elasticsearch-Node",
+    "type": "Search Engine Index",
+    "status": "Online",
+    "target": "35%",
+    "limit": "82%",
+    "reviewer": "DigitalOcean / NYC-3"
+  },
+  {
+    "id": 9,
+    "header": "AWS-S3-Backup-Bucket",
+    "type": "Asset Storage",
+    "status": "Online",
+    "target": "5%",
+    "limit": "15%",
+    "reviewer": "AWS / AP-South-1"
+  },
+  {
+    "id": 10,
+    "header": "Local-Docker-Staging-02",
+    "type": "Staging Environment",
+    "status": "Offline",
+    "target": "0%",
+    "limit": "0%",
+    "reviewer": "On-Premise / DevLab"
+  }
+]
